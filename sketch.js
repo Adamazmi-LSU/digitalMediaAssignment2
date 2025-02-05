@@ -1,7 +1,7 @@
 let currentColor;
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(windowWidth, windowHeight);
   currentColor = color(0); 
   noStroke();
   const colors = [color(255,0,0), color(255,165,0), color(255,255,0), color(0,255,0), color(0,255,255), color(0,0,255), color(255,0,255), color(165,42,42),color(255,255,255), color(0)];
